@@ -66,17 +66,24 @@ body {
 #projects{
 	background-color: #fff6f6;
     padding-top: 7rem;
+    position: relative;
+    display: block;
+}
+#projects > div{
+    height: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 #projects .item{
-    height: 23rem;
     box-shadow: 3px 3px 1.5rem 3px #da645a;
-    margin-bottom: 3rem;
     opacity: .7;
 }
 #projects .item:hover{
     opacity: 1;
 }
 #projects .item a{
+    position: relative;
+    display: block;
     color: #222222;
 }
 #projects .item a:hover{
@@ -86,6 +93,7 @@ body {
 #projects .item .description{
     text-align: center;
     vertical-align: middle;
+    height: 80px;
 }
 /*6. Contact section*/
 #contact{
@@ -113,6 +121,12 @@ body {
 }
 #contact .contact p{
     line-height: 0.8;
+}
+#toggle-contact{
+    color: #da645a;   
+}
+#toggle-contact i{
+    color: #da645a;   
 }
 /*7. Footer social*/
 .social{
