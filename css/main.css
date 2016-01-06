@@ -57,7 +57,7 @@ body {
 }
 #introduction img{
     box-shadow: 3px 3px 1.5rem 3px #da645a;
-    opacity: .7;
+    opacity: 1;
 }
 #introduction img:hover{
     opacity: 1;
