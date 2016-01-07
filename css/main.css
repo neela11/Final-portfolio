@@ -37,7 +37,7 @@ body {
 }
 #image{
 	height: 41em;
-	background-image: url("../img/flower.jpg");
+	background-image: url("../img/flower.JPG");
 	background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
